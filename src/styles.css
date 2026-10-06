@@ -106,3 +106,22 @@ linear-gradient(315deg,rgba(112,180,155,.16),transparent 34%),#fff}
 .attentionHead svg{color:var(--az-lime)}
 .bottomNav .active,.bottomNav button.active{color:var(--az-green)}
 .fab,.quickAdd{background:var(--az-green)!important}
+
+/* Exact Azorim logo palette sampled from supplied logo */
+:root{
+ --az-dark:#326626;
+ --az-green:#326626;
+ --az-lime:#AEB915;
+ --az-yellow:#FDCD00;
+ --az-teal:#71B1A0;
+ --az-orange:#DA6909;
+ --az-red:#BD2E32;
+}
+.miniLogo{color:#326626}.miniLogo:after{background:#AEB915}
+.portfolioStrip{background:linear-gradient(110deg,#326626 0 58%,#397a2c 100%)}
+.miniGeo i:nth-child(1),.executiveIntro .geoA{background:#FDCD00!important}
+.miniGeo i:nth-child(2),.executiveIntro .geoB{background:#71B1A0!important}
+.miniGeo i:nth-child(3){background:#AEB915!important}
+.executiveIntro:before{background:linear-gradient(110deg,#326626 0 62%,#DA6909 62% 78%,#FDCD00 78% 100%)}
+.progress i{background:linear-gradient(90deg,#DA6909 0 20%,#FDCD00 20% 42%,#AEB915 42% 65%,#326626 65% 100%)}
+.projectRow:nth-of-type(3n){border-inline-start-color:#DA6909}
