@@ -27,3 +27,41 @@ nav .active{color:#28772d}nav .active svg{filter:drop-shadow(0 2px 3px rgba(40,1
 .projectTabs .selected{background:#28772d;color:#fff}
 .metrics>div{background:linear-gradient(160deg,#fff,#f4f8e9);border:0;box-shadow:0 6px 16px rgba(25,64,35,.06)}
 .projectSummary{border-top:5px solid #b7c900}
+
+/* Construction-inspired high-energy visual pass */
+main{background:
+radial-gradient(circle at 8% 20%,rgba(255,196,0,.11),transparent 24%),
+radial-gradient(circle at 92% 45%,rgba(112,180,155,.12),transparent 25%),
+linear-gradient(180deg,#fffdf8 0%,#f8f8f1 100%)}
+.executiveIntro{background:
+linear-gradient(135deg,rgba(255,196,0,.16),transparent 34%),
+linear-gradient(315deg,rgba(183,201,0,.18),transparent 32%),#fff;
+box-shadow:0 16px 36px rgba(31,74,36,.13)}
+.executiveIntro:after{content:"";position:absolute;left:-20px;bottom:-25px;width:115px;height:70px;background:repeating-linear-gradient(135deg,rgba(255,196,0,.35) 0 5px,transparent 5px 10px);transform:rotate(-4deg);border-radius:24px}
+.executiveStats{background:rgba(255,255,255,.72);border-radius:14px;padding:13px 5px 4px;border-top:0}
+.attentionHead{margin-top:8px}.signalGrid{gap:12px}
+.signalGrid button{position:relative;overflow:hidden;padding:16px;box-shadow:0 11px 25px rgba(31,73,37,.11)}
+.signalGrid button:first-child{background:linear-gradient(145deg,#fff 45%,#ffe9df 100%);border-bottom:5px solid #ef6b3a}
+.signalGrid button:last-child{background:linear-gradient(145deg,#fff 45%,#edf5b8 100%);border-bottom:5px solid #b7c900}
+.signalGrid button:after{content:"";position:absolute;left:-12px;top:-12px;width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.6)}
+.signalGrid svg{width:22px;height:22px}
+.task{background:linear-gradient(105deg,#fff 72%,#fbfce9);box-shadow:0 9px 22px rgba(31,65,34,.09)}
+.task:after{width:6px;background:linear-gradient(#ffc400,#b7c900)}
+.portfolioStrip{min-height:122px;background:
+linear-gradient(125deg,rgba(255,255,255,.02),rgba(183,201,0,.12)),
+linear-gradient(120deg,#103c29,#1d7036 78%,#32933b);box-shadow:0 16px 34px rgba(16,60,41,.23)}
+.portfolioStrip:after{content:"";position:absolute;left:-8px;bottom:-18px;width:170px;height:54px;background:repeating-linear-gradient(135deg,rgba(255,196,0,.16) 0 5px,transparent 5px 11px);transform:rotate(-5deg)}
+.miniGeo{transform:scale(1.18)}
+.projectRow{padding-top:18px;padding-bottom:16px;background:linear-gradient(105deg,#fff 70%,#f7f9ef);box-shadow:0 10px 26px rgba(27,65,34,.11)}
+.projectRow:nth-of-type(3n+1){background:linear-gradient(105deg,#fff 68%,#f2f7dc)}
+.projectRow:nth-of-type(3n+2){background:linear-gradient(105deg,#fff 68%,#fff6d8)}
+.projectRow:nth-of-type(3n){background:linear-gradient(105deg,#fff 68%,#eaf5ef)}
+.projectRow .projectAccent{width:9px}
+.projectRow h3{font-size:17px}.progress{height:7px;background:#e9ede4}.progress i{background:linear-gradient(90deg,#ffc400 0%,#b7c900 42%,#28772d 100%)}
+.projectMeta span{background:#dff1d9}.projectMeta em{background:#f1f2ec}
+.focusProjects>button{background:linear-gradient(105deg,#fff,#f4f8e8)}
+.projectHeader{background:
+linear-gradient(135deg,rgba(255,196,0,.14),transparent 30%),
+linear-gradient(315deg,rgba(112,180,155,.16),transparent 34%),#fff}
+.projectSummary{background:linear-gradient(135deg,#fff,#f4f8df);box-shadow:0 10px 25px rgba(31,69,36,.08)}
+.fab,.projectAdd{border:1px solid rgba(255,255,255,.35);box-shadow:0 12px 28px rgba(34,126,45,.36)}
