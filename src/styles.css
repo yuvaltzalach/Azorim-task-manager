@@ -318,3 +318,35 @@ header small{font-size:11px}
  .heroMetrics button{height:60px;min-height:60px}
  .featuredProject,.projectPhoto{height:106px;min-height:106px}
 }
+
+/* 2026-10-06 — home fidelity correction: restore project cards, rebuild hero proportions */
+header{height:90px;padding:16px 24px 12px}
+.brandMark{width:130px;min-width:130px;height:58px;overflow:visible}
+.brandMark img{width:126px;max-height:56px;object-fit:contain;object-position:left center}
+
+/* Approved reference hero: image left, deep green copy right, vivid yellow/orange geometry */
+.mockHero{height:250px;min-height:250px;margin-bottom:18px;overflow:hidden;background:#075b31}
+.mockHero:before{background:linear-gradient(118deg,transparent 0 48%,#075b31 48% 78%,#ffd000 78% 100%)}
+.heroImage{inset:0 44% 0 0;clip-path:polygon(0 0,100% 0,88% 100%,0 100%)}
+.heroImage:after{background:linear-gradient(136deg,rgba(255,208,0,.78) 0 18%,transparent 18% 64%,rgba(231,111,0,.70) 64% 77%,transparent 77%)}
+.heroCopy{margin-right:51%;padding:28px 18px 0}
+.heroCopy span{font-size:14px}.heroCopy h2{font-size:25px;line-height:1.12;margin-top:7px;font-weight:800}
+.heroMetrics{bottom:10px;right:16px;left:16px;gap:8px}
+.heroMetrics button{height:82px;min-height:82px;border-radius:18px;padding:8px 11px}
+.heroMetrics button>svg:first-child{width:20px;height:20px}.heroMetrics strong{font-size:25px}.heroMetrics span{font-size:10px}.heroMetrics button>svg:last-child{width:12px;bottom:29px}
+
+/* restore the project cards to the previous, more balanced size */
+.featuredProject{height:auto;min-height:126px;border-radius:20px;margin:10px 0;grid-template-columns:40% 1fr}
+.projectPhoto{height:auto;min-height:126px}
+.featuredInfo{padding:10px 13px 8px}
+.featuredBadges span,.featuredBadges em{font-size:9px;padding:4px 7px}
+.featuredInfo h3{font-size:17px;line-height:1.15;margin:7px 0 6px}
+.featuredProgress{height:9px;margin-top:3px}
+.featuredNumbers{margin-top:9px}.featuredNumbers span{font-size:13px}.featuredNumbers svg{width:16px}
+.projectChevron{top:55px;width:16px}
+@media(max-width:430px){
+ .mockHero{height:242px;min-height:242px}
+ .heroCopy{padding-top:24px}.heroCopy h2{font-size:24px}
+ .heroMetrics button{height:79px;min-height:79px}
+ .featuredProject,.projectPhoto{min-height:122px}
+}
