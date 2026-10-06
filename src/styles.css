@@ -350,3 +350,18 @@ header{height:90px;padding:16px 24px 12px}
  .heroMetrics button{height:79px;min-height:79px}
  .featuredProject,.projectPhoto{min-height:122px}
 }
+
+/* 2026-10-06 — progress alignment / percent visibility */
+.featuredProgress{
+  margin:3px 0 0 38px !important;
+  overflow:visible;
+}
+.featuredProgress b{
+  left:-36px !important;
+  right:auto !important;
+  width:34px;
+  text-align:left;
+  white-space:nowrap;
+  z-index:3;
+}
+.featuredInfo{overflow:visible}
