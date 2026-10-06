@@ -255,3 +255,66 @@ header{height:94px;padding-top:20px}
 
 /* Header brand sizing prepared for the supplied official Azorim artwork */
 .brandMark{min-width:112px;justify-content:flex-start}
+
+
+/* 2026-10-06 — approved mockup fidelity pass */
+:root{
+ --az-dark:#326626;--az-green:#326626;--az-lime:#AEB915;
+ --az-yellow:#FFD000;--az-orange:#E76F00;--az-teal:#71B1A0;
+}
+body{font-family:"Noto Sans Hebrew","Arial Hebrew",Arial,sans-serif;color:#173528}
+header{height:86px;padding:15px 24px 12px}
+header h1{font-size:31px;font-weight:800;letter-spacing:-1.15px}
+header small{font-size:11px}
+.brandMark{width:122px;min-width:122px;height:52px;display:flex;align-items:center;justify-content:flex-start;overflow:hidden}
+.brandMark img{display:block;width:118px;height:auto;max-height:50px;object-fit:contain;object-position:left center}
+
+/* hero: deliberately shallow like approved reference */
+.mockHero{height:184px;min-height:184px;margin:0 0 16px;background:#07562f}
+.mockHero:before{background:linear-gradient(124deg,transparent 0 46%,#07562f 46% 76%,#FFD000 76% 100%)}
+.heroImage{inset:0 45% 0 0}
+.heroImage:after{background:linear-gradient(135deg,rgba(255,208,0,.78) 0 18%,transparent 18% 62%,rgba(231,111,0,.70) 62% 76%,transparent 76%)}
+.heroCopy{margin-right:49%;padding:13px 15px 0}
+.heroCopy span{font-size:12px;font-weight:500}
+.heroCopy h2{font-size:20px;line-height:1.08;margin-top:4px;font-weight:800;letter-spacing:-.65px}
+.heroMetrics{bottom:7px;right:13px;left:13px;gap:7px}
+.heroMetrics button{height:62px;min-height:62px;border-radius:15px;padding:5px 8px;box-shadow:0 6px 15px rgba(0,0,0,.14)}
+.heroMetrics button>svg:first-child{width:16px;height:16px}
+.heroMetrics strong{font-size:20px;font-weight:800;line-height:.95}
+.heroMetrics span{font-size:8.5px;margin-top:2px}
+.heroMetrics button>svg:last-child{width:10px;bottom:21px}
+
+/* project tiles: shorter, denser, typography matched to mock */
+.featured{margin:0 18px 22px}
+.featuredTitle{margin-bottom:8px}
+.featuredTitle h2{font-size:22px;font-weight:800;letter-spacing:-.65px}
+.featuredProject{min-height:108px;height:108px;border-radius:18px;margin:8px 0;grid-template-columns:40% 1fr}
+.projectPhoto{min-height:108px;height:108px}
+.photoAccent{width:48px;height:48px}
+.featuredInfo{padding:8px 12px 6px}
+.featuredBadges{gap:5px}
+.featuredBadges span,.featuredBadges em{font-size:8px;padding:3px 6px}
+.featuredInfo h3{font-size:16px;line-height:1.08;font-weight:800;letter-spacing:-.35px;margin:6px 0 5px}
+.featuredProgress{height:7px;margin:2px 36px 0 0}
+.featuredProgress b{font-size:13px;left:-34px;top:-5px}
+.featuredNumbers{gap:16px;margin-top:7px}
+.featuredNumbers span{font-size:11px;grid-template-columns:15px auto}
+.featuredNumbers svg{width:14px}.featuredNumbers small{font-size:8px}
+.projectChevron{top:46px;width:14px}
+
+/* brighter approved-brand accents */
+.featuredProgress i,.progress i{background:linear-gradient(90deg,#FFD000 0 32%,#AEB915 56%,#326626 100%)}
+.pa0{background:#E76F00}.pa1{background:#AEB915}.pa2{background:#FFD000}
+.fab{background:#28752c!important}
+.todayNeeds{margin-top:22px}.attentionHead h2{font-size:22px;font-weight:800;letter-spacing:-.5px}
+
+@media(max-width:430px){
+ header{height:84px;padding:14px 22px 11px}
+ header h1{font-size:30px}
+ .brandMark{width:116px;min-width:116px;height:48px}
+ .brandMark img{width:112px;max-height:47px}
+ .mockHero{height:180px;min-height:180px}
+ .heroCopy{padding-top:12px}.heroCopy h2{font-size:19px}
+ .heroMetrics button{height:60px;min-height:60px}
+ .featuredProject,.projectPhoto{height:106px;min-height:106px}
+}
