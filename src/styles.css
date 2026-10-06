@@ -125,3 +125,33 @@ linear-gradient(315deg,rgba(112,180,155,.16),transparent 34%),#fff}
 .executiveIntro:before{background:linear-gradient(110deg,#326626 0 62%,#DA6909 62% 78%,#FDCD00 78% 100%)}
 .progress i{background:linear-gradient(90deg,#DA6909 0 20%,#FDCD00 20% 42%,#AEB915 42% 65%,#326626 65% 100%)}
 .projectRow:nth-of-type(3n){border-inline-start-color:#DA6909}
+
+
+/* vNext — vivid construction dashboard */
+header{padding-inline:26px;background:#fff}
+body{background:#f4f2eb}
+main{min-height:calc(100vh - 176px);background:linear-gradient(180deg,#f8f6ef,#f2f1e9)}
+.executiveIntro{margin-top:8px;min-height:390px;padding:178px 24px 22px;border-radius:32px;background:#fff;box-shadow:0 18px 42px rgba(50,102,38,.14)}
+.executiveIntro:before{height:155px;background:linear-gradient(112deg,#326626 0 46%,#DA6909 46% 65%,#FDCD00 65% 100%);clip-path:polygon(0 0,100% 0,100% 72%,76% 100%,47% 72%,21% 100%,0 73%)}
+.executiveIntro .geoA{width:112px;height:112px;left:18px;top:26px;background:#FDCD00!important;box-shadow:0 8px 18px rgba(0,0,0,.08)}
+.executiveIntro .geoB{width:88px;height:88px;left:98px;top:4px;background:#71B1A0!important}
+.executiveIntro .eyebrow{font-size:13px}.executiveIntro h2{font-size:31px;line-height:1.18;max-width:370px}
+.executiveStats{border-radius:18px;padding:15px 6px 8px}.executiveStats strong{font-size:25px}.executiveStats span{font-size:11px}
+.attention{margin-top:28px}.attentionHead h2{font-size:25px}.signalGrid button{min-height:145px;border-radius:25px}.signalGrid strong{font-size:32px}
+.signalGrid button:first-child{background:linear-gradient(145deg,#fff 48%,#fbe3df);border-bottom:8px solid #BD2E32}.signalGrid button:last-child{background:linear-gradient(145deg,#fff 48%,#eef3c8);border-bottom:8px solid #AEB915}
+.section{margin-top:30px}.sectionTitle h2{font-size:24px}.task{min-height:88px;border-radius:22px;padding:18px;box-shadow:0 10px 28px rgba(50,102,38,.10)}
+.task:after{width:7px;background:linear-gradient(#FDCD00,#AEB915)}
+.portfolioStrip{min-height:164px;border-radius:30px;padding:26px 24px;background:linear-gradient(115deg,#326626 0 52%,#39792d 100%);box-shadow:0 18px 38px rgba(50,102,38,.24)}
+.portfolioStrip strong{font-size:28px}.miniGeo{transform:scale(1.75);margin-left:30px}
+.projectRow{min-height:184px;border-radius:26px;padding:22px 22px 18px 26px;box-shadow:0 12px 30px rgba(50,102,38,.12)}
+.projectRow h3{font-size:22px}.projectRow p{font-size:12px}.projectRow .projectAccent{width:11px}
+.projectRow:nth-of-type(3n+1){background:linear-gradient(115deg,#fff 62%,rgba(113,177,160,.20))}
+.projectRow:nth-of-type(3n+2){background:linear-gradient(115deg,#fff 62%,rgba(174,185,21,.18))}
+.projectRow:nth-of-type(3n){background:linear-gradient(115deg,#fff 62%,rgba(253,205,0,.20))}
+.progress{height:10px;border-radius:10px}.projectNumbers span{font-size:11px}
+.fab{width:58px;height:58px;border-radius:19px!important;transform:translateY(-12px);background:#326626!important;box-shadow:0 13px 28px rgba(50,102,38,.36)}
+nav{height:78px}.brandMark{font-size:17px}.brandShape{background:#AEB915}
+.projectHeader{background:linear-gradient(120deg,#fff 55%,rgba(113,177,160,.18))}
+.projectTabs{background:#e7e8df}.projectTabs .selected{background:#326626}
+.metrics strong{color:#326626}.projectSummary{border-top-color:#FDCD00;background:linear-gradient(135deg,#fff,#fff8dc)}
+@media(max-width:380px){.executiveIntro{padding-top:165px}.executiveIntro h2{font-size:27px}.portfolioStrip strong{font-size:24px}}
