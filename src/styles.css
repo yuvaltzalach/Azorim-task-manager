@@ -65,3 +65,16 @@ linear-gradient(135deg,rgba(255,196,0,.14),transparent 30%),
 linear-gradient(315deg,rgba(112,180,155,.16),transparent 34%),#fff}
 .projectSummary{background:linear-gradient(135deg,#fff,#f4f8df);box-shadow:0 10px 25px rgba(31,69,36,.08)}
 .fab,.projectAdd{border:1px solid rgba(255,255,255,.35);box-shadow:0 12px 28px rgba(34,126,45,.36)}
+
+/* Bold premium pass */
+.executiveIntro{min-height:360px;padding-top:150px;background:linear-gradient(160deg,#fff 42%,#fff3ca 72%,#f3f6c9 100%);border-radius:28px}
+.executiveIntro:before{content:"";position:absolute;inset:0 0 auto 0;height:130px;background:linear-gradient(125deg,#123f2a,#2d8a3a);clip-path:polygon(0 0,100% 0,100% 72%,74% 100%,42% 73%,18% 100%,0 70%)}
+.executiveIntro .geoA{width:95px;height:95px;left:15px;top:28px;background:#ffc400;opacity:1;z-index:2}.executiveIntro .geoB{width:74px;height:74px;left:78px;top:8px;background:#70b49b;opacity:1;z-index:2}
+.executiveIntro h2{font-size:27px}.executiveStats{margin-top:22px;background:#fff;box-shadow:0 8px 22px rgba(30,60,30,.08)}
+.attentionHead h2{font-size:22px}.signalGrid button{min-height:132px;border-radius:22px}.signalGrid strong{font-size:28px}.signalGrid span{font-size:11px}
+.signalGrid button:first-child{background:linear-gradient(155deg,#fff 35%,#ffd9cc);border-bottom:7px solid #ee6b38}.signalGrid button:last-child{background:linear-gradient(155deg,#fff 35%,#e5ef8e);border-bottom:7px solid #aebe00}
+.portfolioStrip{min-height:150px;border-radius:28px;background:linear-gradient(120deg,#0f3d29 0%,#237a37 65%,#45a047 100%)}
+.portfolioStrip strong{font-size:25px}.portfolioStrip span{font-size:12px}.miniGeo{transform:scale(1.55);margin-left:18px}
+.projectRow{border-radius:23px;min-height:170px;padding:20px 20px 17px 24px}.projectRow h3{font-size:20px}.projectRow p{font-size:11px}.projectMeta span,.projectMeta em{font-size:10px;padding:5px 9px}.projectNumbers span{font-size:10px}.progress{height:9px;margin-top:17px}
+.projectRow:nth-of-type(3n+1){background:linear-gradient(120deg,#fff 58%,#e8f4dd)}.projectRow:nth-of-type(3n+2){background:linear-gradient(120deg,#fff 58%,#fff0ba)}.projectRow:nth-of-type(3n){background:linear-gradient(120deg,#fff 58%,#dff1ea)}
+.sectionTitle h2{font-size:21px}.task{border-radius:19px;min-height:80px}.task strong{font-size:15px}
