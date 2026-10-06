@@ -197,3 +197,17 @@ nav{height:78px}.brandMark{font-size:17px}.brandShape{background:#AEB915}
  .projectPhoto{min-height:120px}
  .featuredInfo{padding-top:9px}
 }
+
+/* Compact hero v2 + visible Azorim header logo */
+header{height:94px;padding-top:20px}
+.brandMark{display:flex;align-items:center;gap:7px;align-self:center;font-size:18px}
+.azIcon{position:relative;width:25px;height:25px;display:inline-block;transform:rotate(45deg)}
+.azIcon i{position:absolute;width:12px;height:12px}.azIcon i:nth-child(1){right:0;top:0;background:#fdcd00}.azIcon i:nth-child(2){left:0;top:0;background:#da6909}.azIcon i:nth-child(3){right:0;bottom:0;background:#326626}.azIcon i:nth-child(4){left:0;bottom:0;background:#79b8ae}
+.mockHero{min-height:238px;height:238px;margin-bottom:20px}
+.heroImage{inset:0 45% 0 0}
+.heroCopy{margin-right:48%;padding:24px 18px 0}
+.heroCopy span{font-size:14px}.heroCopy h2{font-size:24px;line-height:1.12;margin-top:7px}
+.heroMetrics{bottom:10px;right:12px;left:12px;gap:7px}
+.heroMetrics button{min-height:76px;height:76px;border-radius:16px;padding:7px 9px}
+.heroMetrics strong{font-size:22px;line-height:1}.heroMetrics span{font-size:9px;margin-top:3px}.heroMetrics button>svg:first-child{width:18px;height:18px}.heroMetrics button>svg:last-child{width:12px;bottom:26px}
+@media(max-width:430px){header{height:90px}.mockHero{min-height:230px;height:230px}.heroCopy{padding-top:20px}.heroCopy h2{font-size:23px}.heroMetrics button{min-height:74px;height:74px}}
