@@ -78,3 +78,31 @@ linear-gradient(315deg,rgba(112,180,155,.16),transparent 34%),#fff}
 .projectRow{border-radius:23px;min-height:170px;padding:20px 20px 17px 24px}.projectRow h3{font-size:20px}.projectRow p{font-size:11px}.projectMeta span,.projectMeta em{font-size:10px;padding:5px 9px}.projectNumbers span{font-size:10px}.progress{height:9px;margin-top:17px}
 .projectRow:nth-of-type(3n+1){background:linear-gradient(120deg,#fff 58%,#e8f4dd)}.projectRow:nth-of-type(3n+2){background:linear-gradient(120deg,#fff 58%,#fff0ba)}.projectRow:nth-of-type(3n){background:linear-gradient(120deg,#fff 58%,#dff1ea)}
 .sectionTitle h2{font-size:21px}.task{border-radius:19px;min-height:80px}.task strong{font-size:15px}
+
+/* Azorim brand saturation pass — keep brand colors pure */
+:root{
+  --az-dark:#286622;
+  --az-green:#2f7a2b;
+  --az-lime:#b8c900;
+  --az-yellow:#ffcc00;
+  --az-teal:#7bb9ad;
+}
+.miniLogo{color:var(--az-dark)}
+.miniLogo:after{background:var(--az-lime)}
+.portfolioStrip{background:linear-gradient(110deg,#286622 0%,#286622 42%,#2f7a2b 100%)}
+.miniGeo i:nth-child(1),.executiveIntro .geoA{background:var(--az-yellow)!important;opacity:1!important}
+.miniGeo i:nth-child(2),.executiveIntro .geoB{background:var(--az-teal)!important;opacity:1!important}
+.miniGeo i:nth-child(3){background:var(--az-lime)!important;opacity:1!important}
+.projectRow:nth-of-type(3n+1),.projectRow:nth-of-type(3n+2),.projectRow:nth-of-type(3n){background:#fff}
+.projectRow:nth-of-type(3n+1){border-inline-start-color:var(--az-green)}
+.projectRow:nth-of-type(3n+2){border-inline-start-color:var(--az-lime)}
+.projectRow:nth-of-type(3n){border-inline-start-color:var(--az-yellow)}
+.progress{background:#edf0e8}
+.progress i{background:linear-gradient(90deg,var(--az-yellow) 0 22%,var(--az-lime) 46%,var(--az-green) 100%)}
+.executiveIntro{background:#fff}
+.executiveIntro:before{background:linear-gradient(110deg,var(--az-dark) 0 48%,var(--az-green) 48% 100%)}
+.signalGrid button:first-child{background:#fff;border-bottom-color:#c9343d}
+.signalGrid button:last-child{background:#fff;border-bottom-color:var(--az-lime)}
+.attentionHead svg{color:var(--az-lime)}
+.bottomNav .active,.bottomNav button.active{color:var(--az-green)}
+.fab,.quickAdd{background:var(--az-green)!important}
