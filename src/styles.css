@@ -211,3 +211,47 @@ header{height:94px;padding-top:20px}
 .heroMetrics button{min-height:76px;height:76px;border-radius:16px;padding:7px 9px}
 .heroMetrics strong{font-size:22px;line-height:1}.heroMetrics span{font-size:9px;margin-top:3px}.heroMetrics button>svg:first-child{width:18px;height:18px}.heroMetrics button>svg:last-child{width:12px;bottom:26px}
 @media(max-width:430px){header{height:90px}.mockHero{min-height:230px;height:230px}.heroCopy{padding-top:20px}.heroCopy h2{font-size:23px}.heroMetrics button{min-height:74px;height:74px}}
+
+
+/* 2026-10-06 — compact home hero to match approved reference proportions */
+.mockHero{
+  min-height:210px;
+  height:210px;
+  margin-bottom:18px;
+}
+.heroImage{inset:0 44% 0 0}
+.heroCopy{
+  margin-right:47%;
+  padding:18px 16px 0;
+}
+.heroCopy span{font-size:13px}
+.heroCopy h2{
+  font-size:22px;
+  line-height:1.08;
+  margin-top:5px;
+}
+.heroMetrics{
+  bottom:8px;
+  right:12px;
+  left:12px;
+  gap:7px;
+}
+.heroMetrics button{
+  min-height:68px;
+  height:68px;
+  border-radius:15px;
+  padding:6px 9px;
+}
+.heroMetrics strong{font-size:21px}
+.heroMetrics span{font-size:9px;margin-top:2px}
+.heroMetrics button>svg:first-child{width:17px;height:17px}
+.heroMetrics button>svg:last-child{width:11px;bottom:23px}
+@media(max-width:430px){
+  .mockHero{min-height:202px;height:202px}
+  .heroCopy{padding-top:15px}
+  .heroCopy h2{font-size:21px}
+  .heroMetrics button{min-height:66px;height:66px}
+}
+
+/* Header brand sizing prepared for the supplied official Azorim artwork */
+.brandMark{min-width:112px;justify-content:flex-start}
