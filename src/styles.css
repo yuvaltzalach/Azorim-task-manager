@@ -365,3 +365,22 @@ header{height:90px;padding:16px 24px 12px}
   z-index:3;
 }
 .featuredInfo{overflow:visible}
+
+/* 2026-10-06 — final approved mockup details */
+.heroCopy{background:#075b31;margin-right:50%;padding:24px 24px 0;height:100%;box-sizing:border-box}
+.heroCopy span{font-size:14px;font-weight:400;opacity:.86}
+.heroCopy h2{margin-top:8px;line-height:1.02;letter-spacing:-.9px}
+.heroCopy h2 b,.heroCopy h2 strong{display:block}
+.heroCopy h2 b{font-size:25px;font-weight:700}
+.heroCopy h2 strong{font-size:30px;font-weight:900;margin-top:3px}
+.featuredProgress{display:flex;align-items:center;gap:8px;margin:3px 0 0!important;background:transparent;height:12px}
+.featuredProgress b{position:static!important;order:-1;width:38px!important;flex:0 0 38px;text-align:right!important;font-size:14px;line-height:1;white-space:nowrap}
+.featuredProgress:after{content:"";position:absolute;right:46px;left:0;height:8px;border-radius:8px;background:#edf0e9;z-index:0}
+.featuredProgress i{position:relative;z-index:1;height:8px;max-width:calc(100% - 46px);border-radius:8px;margin-right:0}
+.featuredNumbers{align-items:center}
+.numbersDivider{display:block;width:1px;height:27px;background:#d9ddd8;flex:0 0 1px;margin:0 3px}
+.projectPhoto .photoAccent{inset:auto;top:0;right:0}
+.featuredProject:nth-of-type(3n+2) .photoAccent{top:0;right:0;width:62px;height:46px;clip-path:polygon(100% 0,0 0,100% 100%)}
+.featuredProject:nth-of-type(3n+3) .photoAccent{top:auto;bottom:0;right:0;width:58px;height:52px;clip-path:polygon(100% 0,100% 100%,0 100%)}
+.featuredProject:nth-of-type(3n+4) .photoAccent{top:0;right:auto;left:0;width:55px;height:55px;clip-path:polygon(0 0,100% 0,0 100%)}
+@media(max-width:430px){.heroCopy h2 b{font-size:23px}.heroCopy h2 strong{font-size:27px}}
